@@ -9,14 +9,14 @@ Its impact spans diverse sectors, including: healthcare, commerce, and governanc
 https://codeaxe.co.ke/multilingobot/
 # How to run it?
 
-First step is to download the models from the link <a href="https://drive.google.com/drive/folders/1ybwgK1XNG1wd8As0m9vjMdQfHmD6E9uk?usp=sharing"> MODEL </a> add the model in the root project directory.
+First step is to download the models from the link <a href="https://drive.google.com/drive/folders/1ybwgK1XNG1wd8As0m9vjMdQfHmD6E9uk?usp=sharing"> MODEL </a> add the model in the root/model project directory.
 
 The following instructions were tested on the Windows and Linux with Python 3.8.
 
 1. Clone this repository
 
 ```
-git clone https://github.com/Rogendo/Mental-health-Chatbot.git
+git clone https://github.com/MarlonHenq/Mental-health-Chatbot
 ```
 ```
 cd Mental-health-Chatbot/
@@ -41,10 +41,34 @@ on Windows system
 pip install  -r requirements.txt
 ```
 
-4. Run the 
+4. Install sentencepiece
+
+```
+pip install sentencepiece
+```
+
+5. Install pytorch
+
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+```
+
+6. Install spacy
+
+```
+pip3 install spacy
+```
+
+7. Install spacy language model
+
+```
+python -m spacy download en_core_web_sm // for english
+python -m spacy download pt_core_news_sm // for portuguese
+```
+
+8. Run the 
 ```
 flask --app app --debug run
-
 ```
 
 
