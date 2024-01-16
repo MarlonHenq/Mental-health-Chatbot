@@ -66,7 +66,27 @@ python -m spacy download en_core_web_sm // for english
 python -m spacy download pt_core_news_sm // for portuguese
 ```
 
-8. Run the 
+8. Install flask
+
+```
+pip install flask
+```
+
+9. Install tensorflow
+
+```
+pip install tensorflow
+```
+
+10. Install sacremoses
+
+```
+pip install sacremoses
+
+```
+
+
+11. Run the 
 ```
 flask --app app --debug run
 ```
