@@ -82,7 +82,6 @@ pip install tensorflow
 
 ```
 pip install sacremoses
-
 ```
 
 
@@ -91,7 +90,7 @@ pip install sacremoses
 flask --app app --debug run
 ```
 
-#Important for training the model
+# Important for training the model
 
 If you dont have a GPU, you can use the CPU.
 
