@@ -106,5 +106,8 @@ And change the global variable on your computer
 export CUDA_VISIBLE_DEVICES=""
 ```
 
+# For training the model
+
+View the [Datasets Folder](Datasets) for more information about the data.
 
 ![image](https://user-images.githubusercontent.com/62094358/221975328-2c9500a6-d551-4704-8544-e60e449bcdda.png)
