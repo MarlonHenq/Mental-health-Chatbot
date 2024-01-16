@@ -91,5 +91,21 @@ pip install sacremoses
 flask --app app --debug run
 ```
 
+#Important for training the model
+
+If you dont have a GPU, you can use the CPU.
+
+Install tensorflow for CPU
+
+```
+pip install tensorflow-cpu
+```
+
+And change the global variable on your computer
+
+```
+export CUDA_VISIBLE_DEVICES=""
+```
+
 
 ![image](https://user-images.githubusercontent.com/62094358/221975328-2c9500a6-d551-4704-8544-e60e449bcdda.png)
