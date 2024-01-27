@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> Psychiatrist Bot</title>
+  <title> Pandora Psychiatrist Bot</title>
   <link rel="shortcut icon" href="static/img/mhcicon.png" type="image/x-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <link rel="stylesheet" href="../static/styles/style.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
@@ -15,16 +19,16 @@
   <section class="msger">
     <header class="msger-header">
       <div class="msger-header-title">
-          Psychiatrist Bot 
+          Pandora Psychiatrist Bot 
       </div>
     </header>
     <main class="msger-chat">
       <div class="msg left-msg">
-        <div class="msg-img" style="background-image: url(static/img/mhcicon.png)"></div>
+        <div class="msg-img" style="background-image: url(static/img/pandora.jpeg)"></div>
         
         <div class="msg-bubble">
           <div class="msg-info">
-            <div class="msg-info-name"> Psychiatrist Bot</div>
+            <div class="msg-info-name"> Pandora Psychiatrist Bot</div>
           
             <script>
               function updateTime() {
@@ -44,7 +48,7 @@
 
           </div>
           <div class="msg-text">
-            Welcome to Psychiatrist, a safe and supportive space where you can share your thoughts and feelings without fear of judgement.
+            I'm Pandora, your virtual psychologist. My purpose is to provide a supportive space for your mental well-being. Share your thoughts, feelings, or simply chat. Together, we'll navigate challenges and celebrate victories. I'm here to assist and evolve with you. Let's embark on this journey towards a healthier mind.
           </div>
         </div>
         
@@ -62,8 +66,8 @@
     const msgerInput = get(".msger-input");
     const msgerChat = get(".msger-chat");
     // Icons made by Freepik from www.flaticon.com
-    const BOT_IMG = "static/img/mhcicon.png";
-    const PERSON_IMG = "static/img/person.png";
+    const BOT_IMG = "static/img/pandora.jpeg";
+    const PERSON_IMG = "static/img/person.jpeg";
     const BOT_NAME = "    Psychiatrist Bot";
     const PERSON_NAME = "You";
     msgerForm.addEventListener("submit", event => {
